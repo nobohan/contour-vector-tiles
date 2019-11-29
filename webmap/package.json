@@ -1,0 +1,20 @@
+{
+  "name": "contour-vector-tiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "author": "Champs-Libres Coop",
+  "license": "ISC",
+  "dependencies": {
+    "ol": "^6.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4"
+  }
+}
